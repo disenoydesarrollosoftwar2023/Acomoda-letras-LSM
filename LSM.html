@@ -1,27 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Lenguaje de Señas Mexicano</title>
+  <title>Juego de Palabras en Lengua de Señas Mexicana</title>
+  <style>
+    .letter-image {
+      width: 100px;
+      height: 100px;
+    }
+  </style>
+  <script>
+    // Aquí puedes agregar tu lógica de juego utilizando JavaScript
+    // Para generar palabras aleatorias y manejar la interacción del usuario
+  </script>
 </head>
 <body>
-  <h1>Lenguaje de Señas Mexicano</h1>
+  <h1>Juego de Palabras en Lengua de Señas Mexicana</h1>
   
-  <div>
-    <h2>Letra A</h2>
-    <img src="ruta/a.jpg" alt="Letra A">
+  <div id="word-container">
+    <!-- Aquí se mostrarán las imágenes de las letras -->
   </div>
   
-  <div>
-    <h2>Letra B</h2>
-    <img src="ruta/b.jpg" alt="Letra B">
+  <div id="input-container">
+    <input type="text" id="input-word" placeholder="Ingresa la palabra">
+    <button onclick="checkWord()">Verificar</button>
   </div>
   
-  <div>
-    <h2>Letra C</h2>
-    <img src="ruta/c.jpg" alt="Letra C">
-  </div>
-  
-  <!-- Puedes agregar más letras y sus respectivas imágenes aquí -->
-  
+  <script>
+    // Aquí puedes agregar el código JavaScript para manejar la lógica del juego
+    
+    // Ejemplo de función para verificar la palabra ingresada por el usuario
+    function checkWord() {
+      var userInput = document.getElementById("input-word").value.toLowerCase();
+      // Comparar userInput con la palabra generada y tomar acciones en consecuencia
+    }
+  </script>
 </body>
 </html>
