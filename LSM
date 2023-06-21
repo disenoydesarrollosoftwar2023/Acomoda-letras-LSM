@@ -1,8 +1,27 @@
-ACOMODA LETRAS LSM
-<HTML>
-<HEAD>
-<TITLE>ACOMODA LETRAS LSM</TITLE>
-</HEAD>
-<BODY>
-</BODY>
-</HTML>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lenguaje de Señas Mexicano</title>
+</head>
+<body>
+  <h1>Lenguaje de Señas Mexicano</h1>
+  
+  <div>
+    <h2>Letra A</h2>
+    <img src="ruta/a.jpg" alt="Letra A">
+  </div>
+  
+  <div>
+    <h2>Letra B</h2>
+    <img src="ruta/b.jpg" alt="Letra B">
+  </div>
+  
+  <div>
+    <h2>Letra C</h2>
+    <img src="ruta/c.jpg" alt="Letra C">
+  </div>
+  
+  <!-- Puedes agregar más letras y sus respectivas imágenes aquí -->
+  
+</body>
+</html>
